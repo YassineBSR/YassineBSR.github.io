@@ -10,7 +10,7 @@ body {
 /* Nav */
 
 .bg-d{
-    background-color: #171826;
+    background-color: #333333;
 }
 
 
@@ -83,10 +83,14 @@ body {
 
 
   .bg-footer{
-    background-color: #171826;
+    background-color: #333333;
   }
 
+/* Portfolio */
 
+.bg-b{
+  background-color: #194766;
+}
 
 
 
