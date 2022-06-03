@@ -22,7 +22,8 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <!-- fontawesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <title>CV - BASRIRE Yassine</title>
 </head>
@@ -58,14 +59,14 @@
 
   <section class="about" id="about">
     <div class="container">
-      <div class="section-title mt-5 mb-5">
-        <h1 class="text-center font-weight-bold">A PROPOS</h1>
+      <div class="section-title mt-5 mb-5" data-aos="fade-up">
+        <h1 class="text-center font-weight-bold ">A PROPOS</h1>
       </div>
       <div class="row">
-        <div class="col-lg-4">
-          <img src="assets/img/default-user-image.png" class="img-fluid" alt="">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/default-user-image.png"  class="img-fluid" alt="">
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h2 class="mb-5 font-weight-bold">Developpeur Web Junior</h2>
           <p>Bonjour je m'appelle Yassine Basrire, j'ai 21 ans et j'effectue actuellement ma
             deuxieme année de bachelor à la Manu d'Amiens, une école spécialisée dans le
@@ -94,12 +95,12 @@
   <section id="skills" class="skills">
     <div class="container">
 
-      <div class="section-title mt-5 mb-5">
+      <div class="section-title mt-5 mb-5" data-aos="fade-up">
         <h1 class="text-center font-weight-bold">SKILLS</h1>
       </div>
       <div class="row skills-content">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-right">
 
 
           <span class="skill d-flex justify-content-between">HTML/CSS <i class="val">90%</i></span>
@@ -124,7 +125,7 @@
 
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-left">
 
           <span class="skill d-flex justify-content-between">PHP <i class="val">65%</i></span>
           <div class="progress">
@@ -147,7 +148,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <div class="section-title mt-5 mb-5">
         <h2 class="text-center font-weight-bold">Autres compétences</h2>
       </div>
@@ -168,14 +169,14 @@
 
 
   <section id="resume" class="resume">
-    <div class="container" data-aos="fade-up">
+    <div class="container" >
 
-      <div class="section-title mt-5 mb-5">
+      <div class="section-title mt-5 mb-5" data-aos="fade-up">
         <h1 class="text-center font-weight-bold">DIPLÔMES ET FORMATIONS</h1>
       </div>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-right">
 
 
           <h3 class="resume-title">DIPLÔMES</h3>
@@ -192,7 +193,7 @@
             <p><em>Lycée Marie Curie, Nogent-sur-Oise</em></p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-left">
           <h3 class="resume-title">EXPÉRIENCES PROFESSIONNELLES</h3>
           <div class="resume-item">
             <h4>Ajout, amélioration et modification d'un site internet</h4>
@@ -217,13 +218,13 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
 
-      <div class="section-title mt-5 mb-5">
+      <div class="section-title mt-5 mb-5" data-aos="fade-up">
         <h1 class="text-center font-weight-bold">PORTFOLIO</h1>
       </div>
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-4 col-md-12 mb-4" data-aos="zoom-in">
 
           <!--Card-->
           <div class="card ">
@@ -250,7 +251,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
 
           <!--Card-->
           <div class="card light-blue">
@@ -276,7 +277,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
 
           <!--Card-->
           <div class="card light-blue">
@@ -284,7 +285,7 @@
             <!--Card image-->
             <div class="view overlay hm-blue-slight">
               <!-- Image Zoom HTML -->
-              <img id="myImg" class="img-fluid thumbnail" src="/assets/img/mockupgenhomme.png" alt="Logo GenHomme" >
+              <img id="myImg" class="img-fluid thumbnail" src="/assets/img/mockupgenhomme.png" alt="Logo GenHomme">
               <!-- The Modal -->
               <div id="myModal" class="modal">
                 <img class="modal-content" id="img01">
@@ -296,7 +297,8 @@
             <div class="card-body bg-g text-center">
               <!--Title-->
               <h4 class="card-title text-white py-3">Design de logo</h4>
-              <p class="card-text text-light">Introduction sur le logiciel Illustrator, avec une série de logo sur le thème de transhumanisme. </p>
+              <p class="card-text text-light">Introduction sur le logiciel Illustrator, avec une série de logo sur le
+                thème de transhumanisme. </p>
             </div>
 
           </div>
@@ -305,7 +307,7 @@
         </div>
         <!-- Grid column -->
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
 
           <!--Card-->
           <div class="card light-blue">
@@ -313,7 +315,8 @@
             <!--Card image-->
             <div class="view overlay hm-blue-slight">
               <!-- Image Zoom HTML -->
-              <img id="myImg" class="img-fluid thumbnail" src="/assets/img/cikiwimockup.gif" alt="Fruit insolite "Le Cikiwi" >
+              <img id="myImg" class="img-fluid thumbnail" src="/assets/img/cikiwimockup.gif" alt="Fruit insolite " Le
+                Cikiwi">
               <!-- The Modal -->
               <div id="myModal" class="modal">
                 <img class="modal-content" id="img01">
@@ -325,7 +328,8 @@
             <div class="card-body bg-c text-center">
               <!--Title-->
               <h4 class="card-title text-black py-3">Fruit Insolite "Le Cikiwi"</h4>
-              <p class="card-text text-black">Voici 1 des fruit insolite que j'ai réalisé lors de notre cours d'introduction à Photoshop, j'ai nommé le "Cikiwi"
+              <p class="card-text text-black">Voici 1 des fruit insolite que j'ai réalisé lors de notre cours
+                d'introduction à Photoshop, j'ai nommé le "Cikiwi"
                 Le projet consiste à transformer différents fruits afin de le rendre différent.</p>
             </div>
 
@@ -375,5 +379,7 @@
     }
   });
 </script>
-
+<script>
+  AOS.init();
+</script>
 </html>
