@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 315.02 252.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_32);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_32" data-name="Dégradé sans nom 32" x1="0" y1="126.01" x2="315.02" y2="126.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b4898"/>
+      <stop offset=".2" stop-color="#2b4c9b"/>
+      <stop offset=".42" stop-color="#2c59a4"/>
+      <stop offset=".64" stop-color="#2d6eb5"/>
+      <stop offset=".86" stop-color="#308ccb"/>
+      <stop offset="1" stop-color="#32a2dc"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-1" points="279.03 72.06 251.98 99 251.98 153 278.96 180.09 278.96 198.02 261.02 216.05 144.02 215.98 206.96 72.04 170.99 72.03 89.99 252.02 89.99 252.02 288 252.02 315 225 315.02 153.01 288 126.01 314.99 99.01 315.01 27.01 288 0 126.05 .11 85.36 80.91 45.21 0 0 0 63.02 126.03 0 252 .09 251.99 45.05 251.99 152.99 36.05 261 35.99 279.03 53.99 279.04 71.94 279.03 72.06"/>
+</svg>

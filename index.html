@@ -1,400 +1,250 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- bootstrap css cdn -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <!-- bootstrap js cdn -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- fontawesome cdn -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <title>CV - BASRIRE Yassine</title>
+  <title>Portfolio - BASRIRE Yassine</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-d" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">YASSINE</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">A Propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">A Propos</a>
+      <a href="#skill">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Bonjour, C'est moi</h3>
+      <h1>Yassine Basrire</h1>
+      <h3>Et je suis un <span>Développeur Web junior</span></h3>
+      
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/yassine-basrire-6bb669209/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/YassineBSR"><i class='bx bxl-github'></i></a>
       </div>
+      <a href="#" class="btn" download>Télecharger mon CV</a>
     </div>
-  </nav>
-  <section class="home">
-  
+    <div class="home-img">
+      <img src="/img/LogoYB.svg" alt="">
+    </div>
   </section>
+
 
   <section class="about" id="about">
-    <div class="container">
-      <div class="section-title mt-5 mb-5" data-aos="fade-up">
-        <h1 class="text-center font-weight-bold ">A PROPOS</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/default-user-image.png"  class="img-fluid" alt="">
+    <div class="about-img">
+      <img src="img\LogoYB.svg" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">A propos de <span>Moi</span></h2>
+      <h3>Développeur Web junior !</h3>
+      <p>Bonjour, je m'appelle Yassine Basrire, j'ai 22 ans et j'effectue actuellement ma deuxième 
+        année de bachelor à La Manu d'Amiens, 
+        une école spécialisée dans le web, afin de préparer l'obtention de mon diplôme en 2024.</p>
+    
+    <a href="#" class="btn">Voir plus</a>
+  </div>
+  </section>
+
+  <section class="skill" id="skill">
+      <h1 class="heading"> Mes <span>Skills</span></h1>
+    <div class="row">
+      <div class="col">
+        <div class="sub-title">
+          <h2>Programming Skills</h2>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h2 class="mb-5 font-weight-bold">Developpeur Web Junior</h2>
-          <p>Bonjour je m'appelle Yassine Basrire, j'ai 21 ans et j'effectue actuellement ma
-            deuxieme année de bachelor à la Manu d'Amiens, une école spécialisée dans le
-            Web afin de préparer l'obtention de mon diplôme en 2023.</p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-rounded-right"></i> <strong>Date de naissance:</strong> 11 Janvier 2001</li> <br>
-                <li><i class="bi bi-rounded-right"></i> <strong>Téléphone:</strong> 07 68 51 91 94</li> <br>
-                <li><i class="bi bi-rounded-right"></i> <strong>Ville:</strong> Nogent-Sur-Oise, France</li> <br>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 21 ans</li> <br>
-                <li><i class="bi bi-rounded-right"></i> <strong>Diplôme:</strong> Préparation du Titre Professionnel
-                  d’Etat «Concepteur Développeur d’Application/ Creative»</li> <br>
-                <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> yassine60160@gmail.com</li> <br>
-              </ul>
-            </div>
+        
+        <div class="skill">
+          <div class="subject">HTML</div>
+          <div class="progress-bar" value="75%">
+            <div class="progress-line" style="max-width: 75%"></div>
           </div>
+        </div>
+        <div class="skill">
+          <div class="subject">SYMFONY</div>
+          <div class="progress-bar" value="65%">
+            <div class="progress-line" style="max-width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">PHP</div>
+          <div class="progress-bar" value="60%">
+            <div class="progress-line" style="max-width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">JAVASCRIPT</div>
+          <div class="progress-bar" value="55%">
+            <div class="progress-line" style="max-width: 55%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">REACT JS</div>
+          <div class="progress-bar" value="55%">
+            <div class="progress-line" style="max-width: 55%"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="sub-title">
+          <h2>Design Skills</h2>
+        </div>
+        
+        <div class="skill">
+          <div class="subject">CSS</div>
+          <div class="progress-bar" value="75%">
+            <div class="progress-line" style="max-width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">CMS</div>
+          <div class="progress-bar" value="70%">
+            <div class="progress-line" style="max-width: 70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">BOOTSTRAP</div>
+          <div class="progress-bar" value="65%">
+            <div class="progress-line" style="max-width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">TAILWIND</div>
+          <div class="progress-bar" value="65%">
+            <div class="progress-line" style="max-width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">SUITE ADOBE</div>
+          <div class="progress-bar" value="60%">
+            <div class="progress-line" style="max-width: 60%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Dernier <span>Project</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="/img/mockupnovailec.png" alt="">
+        <div class="portfolio-layer">
+          <h4>NOVAILEC</h4>
+          <p>Site vitrine de l'entreprise "NOVAILEC". Réalisé avec le CMS Wordpress.</p>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/Mockup_NovailecLogo.png" alt="">
+        <div class="portfolio-layer">
+          <h4>NOVAILEC Charte Graphique</h4>
+          <p>Création d'une charte graphique pour l'entreprise "NOVAILEC".</p>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/mockupequipe21.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Equipe 21</h4>
+          <p>Il s'agit d'une application web permettant de suivre les résultats des matchs de football de la Ligue 1 et de la Premier League. J'ai réalisé cette application en utilisant la bibliothèque React.js pour le développement du frontend, l'API SportDataApi pour récupérer les données des matchs, ainsi que le framework CSS Tailwind pour la mise en forme de l'interface utilisateur.</p>
+          <a href="https://github.com/YassineBSR/equipe-21"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/portfoliobestdeal.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Best Deals</h4>
+          <p>Application web de partage de bon plan avec dashboard admin/user, connexion via des réseaux sociaux et notification web. Réalisé en Symfony.</p>
+          <a href="https://github.com/YassineBSR/perfectregistration"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/portfolio1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Dealgames</h4>
+          <p>Plateforme de petites annonces d’achats/ventes/échanges entre passionnés de jeux de vidéo. Ce site est réalisé en Symfony.</p>
+          <a href="https://github.com/YassineBSR/Symfony-Projet"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/mockupgenhomme.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Design de logo</h4>
+          <p>Introduction sur le logiciel Illustrator, avec une série de logo sur le thème de transhumanisme.</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/cikiwimockup.gif" alt="">
+        <div class="portfolio-layer">
+          <h4>Fruit Insolite "Le Cikiwi"</h4>
+          <p>Voici 1 des fruits insolite que j'ai réalisé lors de notre cours d'introduction à Photoshop, j'ai nommé le "Cikiwi" Le projet consiste à transformer différents fruits afin de le rendre différent.</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="/img/mockupbox.png" alt="">
+        <div class="portfolio-layer">
+          <h4>La Manu Box</h4>
+          <p>Application web de service de box de stockage. Réalisé en React JS</p>
+          <a href="https://github.com/YassineBSR/lamanubox"><i class='bx bx-link-external' ></i></a>
         </div>
       </div>
     </div>
   </section>
-  <section id="skills" class="skills">
-    <div class="container">
 
-      <div class="section-title mt-5 mb-5" data-aos="fade-up">
-        <h1 class="text-center font-weight-bold">SKILLS</h1>
+  <section class="contact" id="contact">
+    <h2 class="heading">Contacter <span>Moi</span></h2>
+
+    <form action="mailto:yassine60160@gmail.com" method="post" enctype="text/plain">
+      <div class="input-box">
+        <input type="text" placeholder="Nom Complet">
+        <input type="email" placeholder="Adresse Email">
       </div>
-      <div class="row skills-content">
-
-        <div class="col-lg-6" data-aos="fade-right">
-
-
-          <span class="skill d-flex justify-content-between">HTML/CSS <i class="val">90%</i></span>
-          <div class="progress">
-            <div class="progress-bar bg-d" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-          <span class="skill d-flex justify-content-between">SYMFONY <i class="val">65%</i></span>
-          <div class="progress">
-            <div class="progress-bar bg-d" role="progressbar" style="width: 65%" aria-valuenow="70" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-          <span class="skill d-flex justify-content-between">JAVASCRIPT <i class="val">55%</i></span>
-          <div class="progress">
-            <div class="progress-bar bg-d" role="progressbar" style="width: 55%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-
-
-        </div>
-
-        <div class="col-lg-6" data-aos="fade-left">
-
-          <span class="skill d-flex justify-content-between">PHP <i class="val">65%</i></span>
-          <div class="progress">
-            <div class="progress-bar bg-d" role="progressbar" style="width: 65%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-          <span class="skill d-flex justify-content-between">WORDPRESS/CMS <i class="val">85%</i></span>
-          <div class="progress">
-            <div class="progress-bar bg-d" role="progressbar" style="width: 85%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-          <span class="skill d-flex justify-content-between">SUITE ADOBE <i class="val">70%</i></span>
-          <div class="progress">
-            <div class="progress-bar bg-d" role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-          <br>
-        </div>
+      <div class="input-box">
+        <input type="number" placeholder="Numéro de téléphone">
+        <input type="text" placeholder="Sujet de l'email">
       </div>
-    </div>
-    <div class="container" data-aos="fade-up">
-      <div class="section-title mt-5 mb-5">
-        <h2 class="text-center font-weight-bold">Autres compétences</h2>
-      </div>
-      <div class="h2">
-        <ul class="list-unstyled text-center align-item">
-          <li>- SQL</li>
-          <li>- UI/UX Design</li>
-          <li>- Anglais</li>
-          <li>- SEO</li>
-          <li>- Bootstrap 5</li>
-          <li>- Git</li>
-          <li>- React JS</li>
-        </ul>
-      </div>
-    </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
+      <input type="submit" value="Envoyer Message" class="btn">
+    </form>
   </section>
-  <br>
-
-
-  <section id="resume" class="resume">
-    <div class="container" >
-
-      <div class="section-title mt-5 mb-5" data-aos="fade-up">
-        <h1 class="text-center font-weight-bold">DIPLÔMES ET FORMATIONS</h1>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6" data-aos="fade-right">
-
-
-          <h3 class="resume-title">DIPLÔMES</h3>
-          <br>
-          <div class="resume-item">
-            <h4>Préparation/Obtention du Titre Professionnel d’Etat «Concepteur Développeur d’Application/ Creative»
-            </h4>
-            <h5>2020 - 2023</h5>
-            <p><em>La Manu - « Bachelor Métiers du numérique » , Amiens</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>Baccalauréat STI2D</h4>
-            <h5>2018 - 2019</h5>
-            <p><em>Lycée Marie Curie, Nogent-sur-Oise</em></p>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-left">
-          <h3 class="resume-title">EXPÉRIENCES PROFESSIONNELLES</h3>
-          <div class="resume-item">
-            <h4>Création d'une application web sous Symfony.</h4>
-            <h5>Juin 2022 - Aout 2022</h5>
-            <p><em>Aji Creative, Paris</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>Ajout, amélioration et modification d'un site internet</h4>
-            <h5>Juin 2021 - Juillet 2021</h5>
-            <p><em>Garage Auto Services, Vieille-Église-en-Yvelines</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>Acceuil / Gestion administration</h4>
-            <h5>2020</h5>
-            <p><em>Garage Auto Services, Vieille-Église-en-Yvelines</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>Bénévole</h4>
-            <h5>2020</h5>
-            <p><em>SECOURS POPULAIRE FRANCAIS, Nogent-Sur-Oise</em></p>
-          </div>
-        </div>
-      </div>
+  
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023</p>
     </div>
-  </section>
 
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title mt-5 mb-5" data-aos="fade-up">
-        <h1 class="text-center font-weight-bold">PORTFOLIO</h1>
-      </div>
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-12 mb-4" data-aos="zoom-in">
-
-          <!--Card-->
-          <div class="card ">
-
-            <!--Card image-->
-            <div class="view overlay hm-white-slight">
-              <img src="assets/img/30.png" class="img-fluid" alt="Card image cap">
-            </div>
-
-            <!--Card content-->
-            <div class="card-body bg-d text-center">
-              <!--Title-->
-              <h4 class="card-title text-white py-3">Dealgames</h4>
-              <!--Text-->
-              <p class="card-text text-white">Plateforme de petites annonces d’achats/ventes/échanges
-                entre passionnés de jeux de vidéo. Ce site est réalisé en Symfony.</p>
-              <a href="https://github.com/YassineBSR/Symfony-Projet" class="btn btn-danger my-3 ">Lien Git</a>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
-
-          <!--Card-->
-          <div class="card light-blue">
-
-            <!--Card image-->
-            <div class="view overlay hm-blue-slight">
-              <img src="assets/img/mockupbox.png" class="img-fluid" alt="Card image cap">
-            </div>
-
-            <!--Card content-->
-            <div class="card-body bg-b text-center">
-              <!--Title-->
-              <h4 class="card-title text-white py-3">La Manu Box</h4>
-              <!--Text-->
-              <p class="card-text text-white">Application web de service de box de stockage. Réalisé en React JS</p>
-              <a href="https://github.com/YassineBSR/lamanubox" class="btn btn-light my-3 ">Lien Git</a>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
-
-          <!--Card-->
-          <div class="card light-blue">
-
-            <!--Card image-->
-            <div class="view overlay hm-blue-slight">
-              <!-- Image Zoom HTML -->
-              <img id="myImg" class="img-fluid thumbnail" src="/assets/img/mockupgenhomme.png" alt="Logo GenHomme">
-              <!-- The Modal -->
-              <div id="myModal" class="modal">
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-              </div>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body bg-g text-center">
-              <!--Title-->
-              <h4 class="card-title text-white py-3">Design de logo</h4>
-              <p class="card-text text-light">Introduction sur le logiciel Illustrator, avec une série de logo sur le
-                thème de transhumanisme. </p>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
-
-          <!--Card-->
-          <div class="card light-blue">
-
-            <!--Card image-->
-            <div class="view overlay hm-blue-slight">
-              <!-- Image Zoom HTML -->
-              <img id="myImg" class="img-fluid thumbnail" src="/assets/img/cikiwimockup.gif" alt="Fruit insolite " Le
-                Cikiwi">
-              <!-- The Modal -->
-              <div id="myModal" class="modal">
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-              </div>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body bg-c text-center">
-              <!--Title-->
-              <h4 class="card-title text-black py-3">Fruit Insolite "Le Cikiwi"</h4>
-              <p class="card-text text-black">Voici 1 des fruit insolite que j'ai réalisé lors de notre cours
-                d'introduction à Photoshop, j'ai nommé le "Cikiwi"
-                Le projet consiste à transformer différents fruits afin de le rendre différent.</p>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
-
-          <!--Card-->
-          <div class="card light-blue">
-
-            <!--Card image-->
-            <div class="view overlay hm-blue-slight">
-              <img src="assets/img/bestdeals.png" class="img-fluid" alt="Card image cap">
-            </div>
-
-            <!--Card content-->
-            <div class="card-body bg-p text-center">
-              <!--Title-->
-              <h4 class="card-title text-white py-3">Best Deals</h4>
-              <!--Text-->
-              <p class="card-text text-white">Application web de partage de bon plan avec dashboard admin/user, connexion via des réseaux sociaux et notification web. Réalisé en Symfony.</p>
-              <a href="https://github.com/YassineBSR/perfectregistration" class="btn btn-light my-3 ">Lien Git</a>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-
-
-      </div>
-
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
     </div>
-  </section>
+  </footer>
 
-  <footer class="flex-shrink-0 py-4 bg-footer text-white-50">
-    <div class="container text-center">
-      <div class="d-flex justify-content-center">
-        <h4 class="text-white">Yassine Basrire</h4>
-        <a href="https://www.linkedin.com/in/yassine-basrire-6bb669209/"
-          class="fab fa-linkedin text-decoration-none text-white h4 px-md-3"></a>
-        <a href="https://github.com/YassineBSR" class="fab fa-github text-decoration-none text-white h4"></a>
-      </div>
-    </div>
+
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="/js/script.js"></script>
 </body>
 
-
-
-
-
-
-
-<script>
-  AOS.init();
-</script>
 </html>
