@@ -216,16 +216,16 @@
   <section class="contact" id="contact">
     <h2 class="heading">Contactez <span>Moi</span></h2>
 
-    <form action="mailto:yassine60160@gmail.com" method="post" enctype="text/plain">
+    <form action="submit-form.php" method="post" enctype="text/plain">
       <div class="input-box">
-        <input type="text" placeholder="Nom Complet">
-        <input type="email" placeholder="Adresse Email">
+        <input type="text" placeholder="Nom Complet" name="user_name">
+        <input type="email" placeholder="Adresse Email" name="user_email">
       </div>
       <div class="input-box">
-        <input type="number" placeholder="Numéro de téléphone">
-        <input type="text" placeholder="Sujet de l'email">
+        <input type="number" placeholder="Numéro de téléphone" name="user_number">
+        <input type="text" placeholder="Sujet de l'email" name="user_subject">
       </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message" name="user_message"></textarea>
       <input type="submit" value="Envoyer Message" class="btn">
     </form>
   </section>
